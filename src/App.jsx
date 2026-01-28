@@ -9,13 +9,7 @@ const App = () => {
       <nav>
         <ul>
           <li>
-            <Link to="profile/popeye">Popeye</Link>
-          </li>
-          <li>
-            <Link to="profile/spinach">Spinach</Link>
-          </li>
-          <li>
-            <Link to="profile/unknown">Unknown</Link>
+            <Link to="profile">Profile</Link>
           </li>
         </ul>
 
