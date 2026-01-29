@@ -2,6 +2,7 @@ import { useParams } from "react-router";
 import DefaultProfile from "./components/DefaultProfile";
 import Spinach from "./Spinach";
 import Popeye from "./Popeye";
+import { Link } from "react-router";
 
 const Profile = () => {
     const { name } = useParams();
@@ -19,6 +20,9 @@ const Profile = () => {
             ) : (
                 <DefaultProfile />
             )}
+            <p><Link to="/">
+                You can go back to the home page by clicking here!
+            </Link></p>
         </div>
     );
 };

@@ -10,6 +10,7 @@ const App = () => {
         <ul>
           <li>
             <Link to="profile">Profile</Link>
+            <p><Link to="dashboard">Dashboard</Link></p>
           </li>
         </ul>
 
